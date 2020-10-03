@@ -57,7 +57,7 @@ user_input = gets.strip
     when "list"
       list (songs)
     when "play"
-      plays (songs)
+      play (songs)
     when "exit"
       exit_jukebox
       break
